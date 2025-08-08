@@ -14,7 +14,7 @@ const cors = require('cors')
 // console.log("Hello")
 
 app.use(cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:5173', // Set FRONTEND_URL in Render dashboard
+    origin: process.env.FRONTEND_URL,
     credentials: true 
 }))
 

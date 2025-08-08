@@ -3,4 +3,9 @@
 # Ignore dependencies
 node_modules/
 # Ignore lock file
-package-lock.json 
+package-lock.json
+# Ignore macOS and editor files
+.DS_Store
+.vscode/
+# Ignore DataPart and any non-production folders
+DataPart/ 
